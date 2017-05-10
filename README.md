@@ -11,7 +11,7 @@ version: '2'
 
 services:
   tunnel:
-    image: Fuco1/docker-tunnel
+    image: fuco1/docker-tunnel
     ports:
       # enable ssh tunelling from localhost only
       - "127.0.0.1:2222:22"
